@@ -1,0 +1,41 @@
+# Django #
+*.log
+*.pot
+*.pyc
+__pycache__
+__pycache__/
+db.sqlite3
+media
+
+# If you are using PyCharm #
+.DS_Store
+.DS_Store/
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/dictionaries
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.xml
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/gradle.xml
+.idea/**/libraries
+*.iws /out/
+
+# Environments
+.env
+.env-worker
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+

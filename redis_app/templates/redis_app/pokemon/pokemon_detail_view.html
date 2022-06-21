@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Redis Pokemon</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="m-20">
+        <div class="flex gap-10">
+            <div class="flex-initial">
+                <h2 class="text-3xl">
+                    {{ pokemon.name }}
+                </h2>
+                <p>{{ pokemon.element }}</p>
+            </div>
+            <div class="flex-initial">
+                {% if count %}
+                    <h1 class="text-3xl">
+                        {{ count }}sec remaining
+                    </h1>
+                {% endif %}
+            </div>
+        </div>
+        <h4 class="text-xl text-red-300">{{ message }}</h4>
+        <hr>
+
+        <p>{{ pokemon.description }}</p>
+        <img style="height: 500px" src="{{ pokemon.image_url }}">
+    </div>
+
+</body>
+</html>
